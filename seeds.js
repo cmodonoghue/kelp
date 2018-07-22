@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var mongoose   = require("mongoose");
 var Place = require("./models/place");
 var Comment    = require("./models/comment");
@@ -129,7 +128,6 @@ module.exports = seedDB;
 //     //add a few comments
 // }
  
-=======
 var mongoose   = require("mongoose");
 var Place = require("./models/place");
 var Comment    = require("./models/comment");
@@ -260,5 +258,4 @@ module.exports = seedDB;
 //     //add a few comments
 // }
  
->>>>>>> 74d154dad4dc18402a0d4bb2b4ef4bd137716fce
 // module.exports = seedDB;
