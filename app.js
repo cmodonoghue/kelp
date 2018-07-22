@@ -29,6 +29,8 @@ app.use(flash());
 // seed the database
 // seedDB();
 
+//hello
+
 // PASSPORT CONFIG
 app.use(require("express-session")({
   secret: "hello there",
