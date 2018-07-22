@@ -1,3 +1,4 @@
+<<<<<<< HEAD
      
      USERNAME - PASSWORD
 
@@ -6,4 +7,14 @@ Squidward         -   Tentacles
 Spongebob         -   password
 Larry the Lobster -   password
 Patrick           -   password
+=======
+     
+     USERNAME - PASSWORD
+
+Squilliam         -   fancyson
+Squidward         -   Tentacles
+Spongebob         -   password
+Larry the Lobster -   password
+Patrick           -   password
+>>>>>>> 74d154dad4dc18402a0d4bb2b4ef4bd137716fce
 Mr. Krabs         -   password
