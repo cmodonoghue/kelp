@@ -1,0 +1,231 @@
+body {
+  background: #35b0ab;
+  color: white;
+  font-family: "Roboto Slab";
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url(/resources/stripes-light.png);
+}
+
+.stripes {
+  background-image: url(/resources/stripes-light.png);
+  bottom: 0;
+  width: 100%;
+}
+
+
+html, body {
+  bottom: 0;
+  position: relative;
+}
+
+.navbar {
+  margin: 0 !important;
+} 
+
+.alert {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.image-thumb {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.jumbotron {
+  background: #226b80;
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url(/resources/country-quilt.png);
+  color: white;
+  text-align: center;
+  padding: 70px;
+  margin: 0px;
+  border-bottom: 10px solid #35b0ab;
+  border-top: 10px solid #35b0ab;
+}
+
+.jumbotron .btn {
+  background: #35b0ab;
+  border: none;
+}
+
+.jumbotron p {
+  color: #faffb8;
+  font-size: 22px;
+  font-family: "Nunito";
+}
+
+.showcase {
+  background: #c5f0a4;
+}
+
+#show-title {
+  color: #226b80;
+  margin: 40px auto;
+}
+
+#new-place {
+  width: 30%;
+  margin: 30px auto;
+}
+
+.navbar-default {
+  background-color: #c5f0a4;
+  border-color: #b6e394;
+}
+.navbar-default .navbar-brand {
+  color: #226b80;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #226b80;
+}
+.navbar-default .navbar-text {
+  color: #226b80;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #226b80;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #226b80;
+  filter: brightness(90%);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #226b80;
+  background-color: #b6e394;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #226b80;
+  background-color: #b6e394;
+}
+.navbar-default .navbar-toggle {
+  border-color: #b6e394;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #b6e394;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #226b80;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #226b80;
+}
+.navbar-default .navbar-link {
+  color: #226b80;
+}
+.navbar-default .navbar-link:hover {
+  color: #226b80;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #226b80;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #226b80;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #226b80;
+    background-color: #b6e394;
+  }
+}
+
+.btn {
+  background-color: #226b80;
+  border: none;
+}
+
+.shade:hover {
+  filter: brightness(90%);
+}
+
+.delete-form {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 400px;
+}
+
+.thumbnail {
+  padding: 0;
+  border: 0;
+  font-family: "Nunito";
+  background: #faffb8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#cap-btn {
+  margin-bottom: 15px;
+  background: #35b0ab;
+  color: white;
+  border: none;
+}
+
+
+.thumbnail .caption-full {
+  padding: 9px;
+}
+
+hr {
+  border-color: #35b0ab;
+}
+
+.well {
+  background: #faffb8;
+  color: #226b80;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Roboto Slab";
+  color: #226b80;
+}
+
+#showtime {
+  margin: 30px auto;
+  align-content: center;
+  float: none;
+}
+
+.caption-full {
+  margin: 15px;
+}
+
+#author {
+  color: #226b80;
+}
+
+#description {
+  color: #35b0ab;
+}
+
+.back {
+  color: white;
+}

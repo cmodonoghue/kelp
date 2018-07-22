@@ -1,0 +1,60 @@
+<% include ../partials/header %>
+
+<div class="stripes">
+
+<div class="container">
+
+    <div class="row">
+        
+        <div class="col-md-9" id="showtime">
+            <div class="thumbnail">
+                <img class="img-responsive" src="<%= place.image %>">
+                <div class="caption-full">
+                    <h4><strong><a><%= place.name %></a></strong></h4>
+                    <p id="description"><%= place.description %></p>
+                    <p id="author">
+                        <em>Submitted by: <%= place.author.username %></em>
+                    </p>
+                    <% if (currentUser && place.author.id.equals(currentUser._id)) { %>
+                        <a href="/index/<%= place._id %>/edit" class="btn btn-warning">Edit</a>
+                        <form class="delete-form" action="/index/<%= place._id %>?_method=DELETE" method="POST">
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+                    <% } %>
+                </div>
+            </div>
+            
+            <div class="well">
+                <div class="text-right">
+                    <a class="btn btn-success"href="/index/<%= place._id %>/comments/new">New Comment</a>
+                </div>
+                <hr>
+                <% place.comments.forEach(function(comment){ %>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <strong><%= comment.author.username %></strong>
+                            <span class="pull-right">10 days ago</span>
+                            <p>
+                                <%= comment.text %>
+                            </p>
+                        <% if (currentUser && comment.author.id.equals(currentUser._id)) { %>
+                            <a class="btn btn-xs btn-warning" 
+                                href="/index/<%= place._id %>/comments/<%= comment._id %>/edit">
+                                Edit
+                            </a>
+                            <form class="delete-form" action="/index/<%= place._id %>/comments/<%= comment._id %>?_method=DELETE" method="POST">
+                                <input type="submit" value="Delete" class="btn btn-xs btn-danger">
+                            </form>
+                        <% } %>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+</div>
+
+<% include ../partials/footer %>

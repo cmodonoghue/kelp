@@ -1,0 +1,99 @@
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .slideshow li {
+	opacity: 1;
+}
+
+body {
+  background: #000;
+}
+
+#landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+#landing-header h1 {
+  font-family: "Roboto Slab";
+  color: #fff;
+  font-size: 55px;
+  text-shadow: 2px 2px 4px #3e4955;
+  margin: 20px;
+}
+
+#btn-landing {
+  font-family: "Nunito";
+  background: #35b0ab;
+  border: none;
+  color: white;
+}
+
+.shade:hover {
+  filter: brightness(90%);
+}
+
+
+
+.slideshow { 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow li { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 50s linear infinite; 
+}
+
+.slideshow li:nth-child(1) { 
+  background-image: url(http://2.bp.blogspot.com/-XaU9l1yxRH8/VD4Inwidc_I/AAAAAAAADak/gAvMLSkJMcg/s1600/spongebob-movie-disneyscreencaps.com-4411.jpg);
+}
+.slideshow li:nth-child(2) { 
+  background-image: url(https://vignette.wikia.nocookie.net/spongebob/images/7/7d/Company_Picnic_066.png/revision/latest/scale-to-width-down/1000?cb=20150926033404);
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+  background-image: url(https://vignette.wikia.nocookie.net/spongebob/images/f/f2/Bottle_Burglars_001.png/revision/latest/scale-to-width-down/1280?cb=20180414141732);
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+  background-image: url(https://vignette.wikia.nocookie.net/spongebob/images/c/c8/Snowball_Effect_01a.jpg/revision/latest/scale-to-width-down/1022?cb=20151208214830);
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url(https://vignette.wikia.nocookie.net/spongebob/images/9/9d/Man_Ray_Returns_001.png/revision/latest/scale-to-width-down/1000?cb=20171001162510);
+  animation-delay: 40s; 
+}
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 0.5;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 0
+  }
+}
