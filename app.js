@@ -18,7 +18,9 @@ var commentRoutes    = require("./routes/comments"),
     placeRoutes = require("./routes/places"),
     authRoutes       = require("./routes/auth")
 
-mongoose.connect("mongodb://localhost:27017/kelp", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost:27017/kelp", { useNewUrlParser: true });
+mongoose.connect("mongodb://cmod:password1@ds145871.mlab.com:45871/kelp", { useNewUrlParser: true });
+// mongodb://cmod:password1@ds145871.mlab.com:45871/kelp
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: true}))
 app.set("view engine", "ejs");
