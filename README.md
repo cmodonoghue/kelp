@@ -6,6 +6,6 @@ Full stack web app that uses Node.js, Express.js, MongoDB, Passport.js, Bootstra
 
 Based on Colt Steele's YelpCamp project from his Web Developer Bootcamp course. 
 
-Instead of campgrounds, it is locations from Spongebob.
+Directory of various locations from Spongebob.
 
 
