@@ -4,7 +4,7 @@ Full stack web app that uses Node.js, Express.js, MongoDB, Passport.js, Bootstra
 
 ----------------------------------------------------------------------
 
-Based on Colt Steele's YelpCamp project from his Web Developer Bootcamp course. 
+Built while following Colt Steele's YelpCamp project from his Web Developer Bootcamp course. 
 
 Directory of various locations from Spongebob.
 
